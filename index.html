@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/JS/main.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h2>List of tasks</h2>
+      <ul id="task-list"></ul>
+    </div>
+    <form onsubmit="createTask(event)">
+      <div><label for="form-title">Title:</label></div>
+      <div><input type="text" id="form-title" class="input-text" /></div>
+      <button class="btn" id="btn-create-task">Create Task</button>
+    </form>
+  </body>
+</html>
